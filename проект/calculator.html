@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/calculator.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header >
+            <div id="main">
+                <div id="header">
+                    <div class="header_menu">
+                            <div class="header_ref header_nav first"><a href="index.html"><p>Главная</p></a></div>
+                            <span class="header_span header_ref">|</span>
+                            <div class="header_ref header_nav"><a href="catalog.html"><p>Каталог</p></a></div>
+                            <span class="header_span header_ref">|</span>
+                            <div class="header_ref header_nav activ"><a href="calculator.html"><p>Калькулятор</p></a></div>
+                    </div>
+                    <div class="header_button">
+                        <div class="header_ref"><a href="form-call.html" id="btn-call" class="btn-call-me"><p>Обратный звонок</p></a></div>
+                    </div>
+                </div>
+            </div>
+                
+        </header>
+        <section>
+            <div class="container">
+                <p class="content_text">Чтобы самостоятельно провести расчет материала, мы предлагаем вам воспользоваться специальной <br>программой для расчета, которая позволит легко и быстро справиться с поставленной задачей.</p>
+                <div class="container_center">
+                    <div class="shadow_inset">
+                        <div class="container_calc">
+                            <div class="blank"></div>
+                            <div class="fence_type">
+                                <select name="fence">
+                                    <option value="none" hidden="" class="select_fence">выберите тип забора</option>
+                                    <option value="1"><p>Заборы из профлиста (профнастила)</p></option>
+                                    <option value="2"><p>Заборы из сетки рабицы</p></option>
+                                    <option value="3"><p>Заборы из 3D сетки</p></option>
+                                    <option value="1"><p>Деревянные заборы</p></option>
+                                    <option value="2"><p>Комбинированные виды заборов</p></option>
+                                    <option value="3"><p>Садовые ограждения</p></option>
+                                    <option value="2"><p>Заборы и ограждения из поликарбоната</p></option>
+                                    <option value="3"><p>Бетонные ростверки под заборы</p></option>
+                                </select>
+                            </div>
+                            <div class="equally"><p><b>=</b></p></div>
+                            <div class="meter">
+                                <input type="m2">
+                            </div>
+                            <div class="m_2"><p>м<sup><small>2</small></sup></p></div>
+                            <div class="result">
+                                <output сlass="output_result"></output>
+                            </div>
+                            <div class="rub"><p>р</p></div>
+                            <div class="butten_result">
+                                <input type="button" value="Расчитать стоимость">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_center_mobile">
+                        <div class="shadow_inset_mobile">
+                            <div class="container_calc_mobile">
+                                <div class="blank"></div>
+                                <div class="fence_type_mobile">
+                                    <select name="fence">
+                                        <option value="none" hidden="" class="select_fence">выберите тип забора</option>
+                                        <option value="1"><p>Заборы из профлиста (профнастила)</p></option>
+                                        <option value="2"><p>Заборы из сетки рабицы</p></option>
+                                        <option value="3"><p>Заборы из 3D сетки</p></option>
+                                        <option value="1"><p>Деревянные заборы</p></option>
+                                        <option value="2"><p>Комбинированные виды заборов</p></option>
+                                        <option value="3"><p>Садовые ограждения</p></option>
+                                        <option value="2"><p>Заборы и ограждения из поликарбоната</p></option>
+                                        <option value="3"><p>Бетонные ростверки под заборы</p></option>
+                                    </select>
+                                </div>
+                                <div class="equally_mobile"><p><b>=</b></p></div>
+                                <div class="meter_mobile">
+                                    <input type="text">
+                                </div>
+                                <div class="m_2_mobile"><p>м<sup><small>2</small></sup></p></div>
+                                <div class="result_mobile">
+                                    <output сlass="output_result_mobile"></output>
+                                </div>
+                                <div class="rub_mobile"><p>р</p></div>
+                                <div class="butten_result_mobile">
+                                    <input type="button" value="Расчитать стоимость">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <p class="content_text">Мы консультируем Вас по правильной разметке секций забора,чтобы конечный результат выглядел красиво. <br>Закажите обратный звонок, и специалист позвонит вам и ответит на все ваши вопросы.</p>
+                <div class="butten_call">
+                    <input type="button" value="Заказать обратный звонок">
+                </div>
+                <div class="butten_call_mobile">
+                    <input type="button" value="Заказать обратный звонок">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="footer__menu">
+                    <div class="footer__menu__button">
+                        <a href="index.html" class="footer__button__menu">Главная</a>
+                    </div>
+                    <div class="footer__menu__button">
+                        <a href="catalog.html" class="footer__button__menu">Каталог</a>
+                    </div>
+                    <div class="footer__menu__button">
+                        <a href="calculator.html" class="footer__button__menu">Калькулятор</a>
+                    </div>
+                </div>
+                <div class="footer__mail">
+                    <p>reliktmouse78@gmail.com</p>
+                </div>
+            </div>
+            
+        </footer>
+    </div>
+    <div class="form-wrapper call-me-wrapper">
+            <div class="form-wr call-me">
+                <form class="form" id="call-me">
+                    <div class="form__title">Заказать звонок</div>
+                    <div class="form__label">
+                        <input class="form__input" type="text" name="name" id="name">
+                        <div class="form__placeholder">Ваше имя</div>
+                    </div>
+                    <div class="form__label">
+                        <input class="form__input form__phone" type="text" name="phone" id="phone">
+                        <div class="form__placeholder">Телефон</div>
+                    </div>
+                    <button class="form__button" type="submit">Отправить</button>
+                    <a href="#" class="form__close">✖</a>
+                </form>
+            </div>
+        </div>
+        
+</body>
+</html>
